@@ -1,0 +1,17 @@
+# Recursos descargados por el notebook
+.nltk_data/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+
+# Cache de Jupyter
+.ipynb_checkpoints/
+
+# Cache de modelos de Hugging Face si se configura localmente
+.cache/

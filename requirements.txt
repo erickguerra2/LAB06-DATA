@@ -1,0 +1,25 @@
+# Laboratorio 6. Analisis de redes sociales en YouTube
+# Versiones con las que se ejecuto el notebook. Python 3.11 o superior.
+
+pandas>=2.2
+numpy>=1.26
+matplotlib>=3.8
+
+# Redes: construccion, topologia, centralidad y comunidades con Louvain
+networkx>=3.3
+
+# Procesamiento de texto en espanol
+nltk>=3.8
+spacy>=3.7
+emoji>=2.10
+wordcloud>=1.9
+
+# Analisis de sentimiento en espanol, arrastra transformers y torch
+pysentimiento>=0.7
+
+# Entorno de ejecucion del notebook
+jupyterlab>=4.0
+ipykernel>=6.29
+
+# El modelo de lematizacion en espanol se instala aparte:
+#   python -m spacy download es_core_news_sm
